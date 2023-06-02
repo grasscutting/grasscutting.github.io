@@ -2,8 +2,8 @@ const textcontainer = document.getElementById('container');
 
 // use interval function to "fade in" Coming soon... text one letter per 0.25 seconds and then make the point go from . to .. to ... and then back to . again and repeat
 
-let text = 'Coming soon...';
-let dots = '.';
+let text = 'Coming soon';
+let dots = '';
 
 function fadeInText() {
   let interval = setInterval(function() {
