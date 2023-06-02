@@ -8,7 +8,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5rem;
+    font-size: 50pt;
     font-family: 'Courier New', Courier, monospace;
 }
 
