@@ -1,0 +1,38 @@
+body {
+    background: #050505;
+    color: #fff;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    margin: 0.5rem;
+}
+
+.linkstyle {
+    color: #00d0ff;
+    text-decoration: none;
+}
+
+.linkstyle:hover {
+    color: #0080ff;
+    text-decoration: underline;
+}
+
+.linkstyle:active {
+    color: #c800ff;
+    text-decoration: underline;
+}
