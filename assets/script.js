@@ -30,7 +30,7 @@ function animateDots() {
         for (let i = 0; i < dots.length; i++) {
             prefixspace += '&nbsp;';
         }
-        textcontainer.innerHTML = prefixspace + 'Coming soon' + dots;
+        textcontainer.innerHTML = (prefixspace + 'Coming soon' + dots).replace(" ", "&nbsp;");
     }, 500);
 }
 
