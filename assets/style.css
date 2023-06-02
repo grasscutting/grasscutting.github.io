@@ -10,6 +10,8 @@ body {
     transform: translate(-50%, -50%);
     font-size: 25pt;
     font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    text-align: center;
 }
 
 #copyright {
